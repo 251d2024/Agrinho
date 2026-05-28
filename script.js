@@ -89,7 +89,7 @@ quizBtns.forEach(botao => {
 
 // MAPA
 
-const map = L.map('map').setView([-15.7801, -47.9292], 4);
+let map = L.map('map').setView([-15.7801, -47.9292], 4);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
